@@ -1,0 +1,203 @@
+﻿/*ffce00*/
+body {
+  font-family: 'Cuprum', 'Agency FB', Arial, sans-serif;
+  font-size: 2em;
+  background-color: #f6f6f6;
+}
+.container-fluid {
+  padding: 0 0;
+}
+.header {
+  background-color: #FFF;
+}
+.header .img-patrocinio-header {
+  width: 200px;
+}
+.header ul li {
+  margin-right: 1.5em;
+  display: inline-block;
+}
+.header .logo {
+  /*background-image: url('../imagens/logo-pequena.png');*/
+  background-repeat: no-repeat;
+  min-height: 200px;
+  margin: auto;
+}
+.header .logo img {
+  max-width: 170px;
+  /*float: left;*/
+}
+.header h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+.header .hack {
+  color: #808080;
+}
+.menu {
+  margin-bottom: .5em;
+}
+.menu ul {
+  background-color: #555555;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  /*height: 3em;*/
+  /*vertical-align: middle;*/
+  padding: 0.5em;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 4em;
+  text-transform: uppercase;
+  /*border-left: 1px solid rgba(0, 0, 0, .4);*/
+  font-weight: bold;
+}
+.menu li a {
+  text-decoration: none;
+  margin-top: 5px;
+  list-style: none;
+  vertical-align: middle;
+  color: #FFF;
+}
+.menu li a:hover,
+.menu li a:focus {
+  color: #fffeb9;
+}
+.content {
+  margin: 0 auto;
+  position: relative;
+  /*padding: 2em;*/
+}
+.content .text-content {
+  width: 90%;
+  margin: auto;
+  font-family: Arial;
+}
+.content .titles {
+  margin: auto auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content .titles h2 {
+  padding: 1em;
+}
+.content .titles h2,
+.content .titles h3 {
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .header .img-patrocinio-header {
+    width: 110px;
+  }
+  .header ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1.5em;
+  }
+  .header .logo {
+    min-height: 0;
+  }
+  .header .logo img {
+    max-width: 100px;
+  }
+  .content .o-que-e .text-content {
+    width: 90%;
+  }
+  body {
+    font-size: 1.8em;
+  }
+  .quem-somos-socialLinks {
+    font-size: 1.6em;
+  }
+}
+.quem-somos img {
+  width: 150px;
+  border-radius: 50%;
+}
+.quem-somos figcaption {
+  font-size: 1.2em;
+  color: #000;
+}
+.quem-somos li {
+  list-style: none;
+  display: inline-block;
+}
+.o-que-e {
+  /*background-color: lighten(@cor-principal, 45%);*/
+  border-bottom: 2px solid #c8c8c8;
+  text-align: justify;
+  text-indent: 2em;
+}
+.o-que-e .text-content {
+  width: 70%;
+}
+.quando {
+  /*background-color: lighten(@cor-principal, 48%);*/
+  border-bottom: 2px solid #cfcfcf;
+}
+.onde {
+  /*background-color: lighten(@cor-principal, 50%);*/
+  border-bottom: 2px solid #d4d4d4;
+}
+.inscricoes {
+  /*background-color: lighten(@cor-principal, 52%);*/
+  border-bottom: 2px solid #dadada;
+}
+.inscricoes .link-regras {
+  color: #337ab7;
+}
+.faq {
+  border-top: 2px solid #dfdfdf;
+}
+.quem-somos {
+  /*background-color: lighten(@cor-principal, 54%);*/
+}
+.quando,
+.inscricoes,
+.onde,
+.o-que-e,
+.quem-somos,
+faq {
+  min-height: 3em;
+  padding-bottom: 1.5em;
+}
+.footer {
+  min-height: 200px;
+  background-color: #FFF;
+  min-height: 10em;
+  border-top: 2px solid #c8c8c8;
+}
+.footer img {
+  max-height: 50px;
+}
+.footer .patrocinio .img-patrocinio-platinum {
+  min-height: 60px;
+  max-height: 60px;
+}
+.footer .patrocinio .img-patrocinio-partner {
+  min-height: 50px;
+  max-height: 50px;
+}
+.footer h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer ul {
+  -webkit-box-align: center;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 3em;
+}
+.footer ul li .faculdade-logo {
+  display: inline;
+}
+.footer .contato {
+  vertical-align: middle;
+}
+.footer .coordenacoes {
+  font-size: .8em;
+}
